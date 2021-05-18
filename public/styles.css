@@ -20,6 +20,10 @@ html, body {
     height: 100%;
     width: 95%;
 }
+li{background-color: #01B1DB}
+li:nth-child(2n){
+    background-color:#CF0060;
+}
 button{
     height: 100%;
     background-color:#44c767;
