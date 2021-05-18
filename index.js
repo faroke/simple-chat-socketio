@@ -14,7 +14,7 @@ io.on('connection', socket => {
         io.emit('message', message);
     });
 })
-
-server.listen(3000, () => {
-    console.log('http://localhost:3000')
+const PORT = 8080
+server.listen(PORT, () => {
+    console.log(`http://localhost:${PORT}`)
 })
